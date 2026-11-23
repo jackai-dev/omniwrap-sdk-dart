@@ -1,0 +1,132 @@
+{
+  "contract_fingerprint": "2289bcb0d661bdea6dd47c7967f37aace7d3a152e18e7d2f64c08514fb73e795",
+  "sdk_targets_version": "1.1.0",
+  "targets": [
+    {
+      "identity": {
+        "coordinates": "omni_wrap@1.0.0",
+        "ecosystem": "pub.dev",
+        "entry": "OmniWrapClient",
+        "import": "import 'package:omni_wrap/client.dart';"
+      },
+      "operations": {
+        "cancelPreview": {
+          "member": "cancelPreview",
+          "method": "POST",
+          "path": "/v1/projects/{projectId}/previews/{previewId}/cancel",
+          "resource": "previews",
+          "signature": "Future<ApiResponse> cancelPreview(String projectId, String previewId, Map<String, dynamic>? body)"
+        },
+        "createConfigurationRevision": {
+          "member": "createConfigurationRevision",
+          "method": "POST",
+          "path": "/v1/projects/{projectId}/configuration-revisions",
+          "resource": "configurations",
+          "signature": "Future<ApiResponse> createConfigurationRevision(String projectId, Map<String, dynamic>? body)"
+        },
+        "createPreview": {
+          "member": "createPreview",
+          "method": "POST",
+          "path": "/v1/projects/{projectId}/previews",
+          "resource": "previews",
+          "signature": "Future<ApiResponse> createPreview(String projectId, Map<String, dynamic>? body)"
+        },
+        "createSourceRevision": {
+          "member": "createSourceRevision",
+          "method": "POST",
+          "path": "/v1/projects/{projectId}/source-revisions",
+          "resource": "sources",
+          "signature": "Future<ApiResponse> createSourceRevision(String projectId, Map<String, dynamic>? body, {Map<String, String> query = const {}})"
+        },
+        "getArtifact": {
+          "member": "getArtifact",
+          "method": "GET",
+          "path": "/v1/projects/{projectId}/artifacts/{artifactId}",
+          "resource": "artifacts",
+          "signature": "Future<ApiResponse> getArtifact(String projectId, String artifactId)"
+        },
+        "getConfigurationRevision": {
+          "member": "getConfigurationRevision",
+          "method": "GET",
+          "path": "/v1/projects/{projectId}/configuration-revisions/{revisionId}",
+          "resource": "configurations",
+          "signature": "Future<ApiResponse> getConfigurationRevision(String projectId, String revisionId)"
+        },
+        "getEvidence": {
+          "member": "getEvidence",
+          "method": "GET",
+          "path": "/v1/projects/{projectId}/evidence/{evidenceId}",
+          "resource": "evidence",
+          "signature": "Future<ApiResponse> getEvidence(String projectId, String evidenceId)"
+        },
+        "getPreview": {
+          "member": "getPreview",
+          "method": "GET",
+          "path": "/v1/projects/{projectId}/previews/{previewId}",
+          "resource": "previews",
+          "signature": "Future<ApiResponse> getPreview(String projectId, String previewId)"
+        },
+        "getPreviewEvents": {
+          "member": "getPreviewEvents",
+          "method": "GET",
+          "path": "/v1/projects/{projectId}/previews/{previewId}/events",
+          "resource": "previews",
+          "signature": "Future<ApiResponse> getPreviewEvents(String projectId, String previewId, {Map<String, String> query = const {}})"
+        },
+        "getPreviewLogs": {
+          "member": "getPreviewLogs",
+          "method": "GET",
+          "path": "/v1/projects/{projectId}/previews/{previewId}/logs",
+          "resource": "previews",
+          "signature": "Future<ApiResponse> getPreviewLogs(String projectId, String previewId, {Map<String, String> query = const {}})"
+        },
+        "getProject": {
+          "member": "getProject",
+          "method": "GET",
+          "path": "/v1/projects/{projectId}",
+          "resource": "projects",
+          "signature": "Future<ApiResponse> getProject(String projectId)"
+        },
+        "getSourceRevision": {
+          "member": "getSourceRevision",
+          "method": "GET",
+          "path": "/v1/projects/{projectId}/source-revisions/{revisionId}",
+          "resource": "sources",
+          "signature": "Future<ApiResponse> getSourceRevision(String projectId, String revisionId)"
+        },
+        "getUserContext": {
+          "member": "getUserContext",
+          "method": "GET",
+          "path": "/v1/me/context",
+          "resource": "context",
+          "signature": "Future<ApiResponse> getUserContext()"
+        },
+        "listPreviewEvidence": {
+          "member": "listPreviewEvidence",
+          "method": "GET",
+          "path": "/v1/projects/{projectId}/previews/{previewId}/evidence",
+          "resource": "evidence",
+          "signature": "Future<ApiResponse> listPreviewEvidence(String projectId, String previewId, {Map<String, String> query = const {}})"
+        },
+        "listPreviews": {
+          "member": "listPreviews",
+          "method": "GET",
+          "path": "/v1/projects/{projectId}/previews",
+          "resource": "previews",
+          "signature": "Future<ApiResponse> listPreviews(String projectId, {Map<String, String> query = const {}})"
+        },
+        "listProjects": {
+          "member": "listProjects",
+          "method": "GET",
+          "path": "/v1/projects",
+          "resource": "projects",
+          "signature": "Future<ApiResponse> listProjects({Map<String, String> query = const {}})"
+        }
+      },
+      "package_directory": "../omni-wrap-dart-sdk",
+      "package_manifest": "pubspec.yaml",
+      "reference": "api.md",
+      "renderer": "dart"
+    }
+  ]
+}

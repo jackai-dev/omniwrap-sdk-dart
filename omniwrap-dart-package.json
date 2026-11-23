@@ -1,0 +1,61 @@
+{
+  "artifact_type": "dart-sdk",
+  "package_manifest": "pubspec.yaml",
+  "package_name": "omni_wrap",
+  "package_version": "1.0.0",
+  "runtime_floor": ">=3.0.0 <4.0.0",
+  "source_files": [
+    {
+      "path": ".omniwrap-skill-manifest.json",
+      "sha256": "36742f0839b94d4cae9d0ab7e0201ffe6d6b3dbf7775c28013af11a2431b8c1e",
+      "size_bytes": 350
+    },
+    {
+      "path": "agent-session.json",
+      "sha256": "ef76ec44406ab3cde00828c427236f3d55c3f80c05b10bc1802c66c5c809d352",
+      "size_bytes": 158801
+    },
+    {
+      "path": "AGENT_SESSION.md",
+      "sha256": "da09e0a77ce1f64988949bed15c72263199f01e2bc0b9083d8fc04a4f42fdae1",
+      "size_bytes": 694
+    },
+    {
+      "path": "api.md",
+      "sha256": "2152a5f46640d5ec7fb6c24ebe255df4acefc781ee80934c35bc5fd663db0ef3",
+      "size_bytes": 63369
+    },
+    {
+      "path": "lib/agent_session.dart",
+      "sha256": "ceaa0205456770df355587ef6d5c7dccaf41d863eb528b1a1032ffa7702071ac",
+      "size_bytes": 1311
+    },
+    {
+      "path": "lib/client.dart",
+      "sha256": "cc7e6df5d79ce70ccecec6fccf30b7a5f1e8830630de5155d04d62bac55f43bb",
+      "size_bytes": 17779
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "fb11dfcf40507855f2fbe0fdcee036cfe549b3ef7e52ebeb09e0dd66d552a128",
+      "size_bytes": 282
+    },
+    {
+      "path": "pubspec.yaml",
+      "sha256": "ea49d30f1efb1343207bb470d80ac97b904138633de731c4ecf7808c20959d35",
+      "size_bytes": 249
+    },
+    {
+      "path": "README.md",
+      "sha256": "784aefa727f6e0f1c89a4b9d6a87c8db97a66129bb5d7de7485abdcda5c4f378",
+      "size_bytes": 787
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "a9dc95dcc277b83611f788113ef80d62210a309d6df8d3098041f4a4016754e7",
+      "size_bytes": 8825
+    }
+  ],
+  "source_version": "1.0.0",
+  "target": "dart"
+}
